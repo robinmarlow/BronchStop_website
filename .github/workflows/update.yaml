@@ -29,10 +29,10 @@ jobs:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SECRET_BUCKETNAME: ${{ secrets.SECRET_BUCKETNAME }}
-        run: Rscript -e 'rmarkdown::render(input = "BronchStop_dashboard_no_secrets.rmd")'
+        run: Rscript -e 'rmarkdown::render(input = "BronchStop_no_secrets.rmd")'
 
       - name: Rename file 
-        run: mv BronchStop_dashboard_no_secrets.html ./site/index.html
+        run: mv BronchStop_no_secrets.html ./site/index.html
         
       - name: Commit results
         run: |
