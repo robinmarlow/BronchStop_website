@@ -14,12 +14,8 @@ jobs:
         with:
           cache-version: 2
           packages: |
-            any::tidyverse
-            any::janitor
             any::flexdashboard
-            any::gt
             any::aws.s3
-            any::rmarkdown
  
       - name: Check out repository
         uses: actions/checkout@v3
