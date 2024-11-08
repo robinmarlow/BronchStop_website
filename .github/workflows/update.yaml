@@ -40,7 +40,7 @@ jobs:
         run: Rscript -e 'rmarkdown::render(input = "BronchStop_no_secrets.rmd")'
 
       - name: Rename file 
-        run: mv BronchStop_no_secrets.html ./site/index.html
+        run: mv BronchStop_no_secrets.html ./docs/index.html
         
       - name: Commit results
         run: |
