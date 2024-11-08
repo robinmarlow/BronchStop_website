@@ -24,6 +24,7 @@ jobs:
             any::mapproj
             any::maps
             any::viridis
+            any::ggridges
  
       - name: Check out repository
         uses: actions/checkout@v3
