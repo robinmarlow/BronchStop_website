@@ -19,6 +19,7 @@ jobs:
             any::flexdashboard
             any::aws.s3
             any::gt
+            any::dplyr
  
       - name: Check out repository
         uses: actions/checkout@v3
