@@ -21,6 +21,9 @@ jobs:
             any::gt
             any::dplyr
             any::ggplot2
+            any::mapproj
+            any::maps
+            any::viridis
  
       - name: Check out repository
         uses: actions/checkout@v3
