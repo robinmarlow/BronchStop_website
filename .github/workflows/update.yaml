@@ -20,7 +20,7 @@ jobs:
             any::aws.s3
             any::gt
             any::dplyr
-            any::gpplot
+            any::ggplot2
  
       - name: Check out repository
         uses: actions/checkout@v3
