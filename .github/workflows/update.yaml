@@ -25,6 +25,7 @@ jobs:
             any::aws.s3
             any::gt
             any::dplyr
+            any::tidyr
             any::ggplot2
             any::mapproj
             any::maps
